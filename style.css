@@ -1,0 +1,102 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: gray;
+    
+}
+
+
+.container{
+    width:  1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logotyp{
+    display: flex;
+    height: 46px;
+    width: auto;
+    background-color: #303030;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-between;
+    
+    
+}
+
+.logo{
+    background-color:#303030;
+    color: white;
+    min-width: 100px;
+    height: 50px;
+    font-size: 44px;
+    opacity: 0.7;
+    margin-right: 50px;
+}
+
+.logo1{
+    margin-left: 90px;
+}
+
+.menu{
+    display: flex;
+    height: 45px;
+    width: auto;
+    background-color: #303030;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-around;
+    justify-items: center;
+    flex-direction: row;
+    
+}
+
+.option {
+    background-color:#303030;
+    color: wheat;
+    min-width: 100px;
+    height: 40px;
+    font-size: 38px;
+    font-weight: 900;
+    opacity: 0.7;
+    
+}
+
+.option:hover{
+    background-color: rgb(187, 142, 142);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topbar {
+    display: flex;
+    background-color: #353d3b;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    height: 240px;
+    border: dotted gainsboro;
+    justify-content: center;
+}
+
+.topbarL {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    text-align: justify;
+    border-right: 2px dotted #cccccc;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.topbarR {
+    padding: 10px;
+    width: auto;
+    height: auto;
+    font-size: auto;
+    text-align: justify;
+    font-weight: 900;
+}
+
+
+
